@@ -110,7 +110,7 @@ public class DatabaseHistorique extends SQLiteOpenHelper {
         }
 
         // Fermer le curseur et la base de données
-        cursor.close();
+        cursor.close(); 
         db.close();
 
         return operations;
